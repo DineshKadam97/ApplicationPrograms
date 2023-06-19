@@ -8,7 +8,7 @@ int main()
     int size = 0;
     int *ptr = NULL;
 
-    //Dynamic memory allocation
+    // Dynamic memory allocation
     printf("Enter the size of array\n");
     scanf("%d",&size);
 

@@ -8,13 +8,14 @@ int main()
     int size = 0;
     int *ptr = NULL;
 
+    //Dynamic memory allocation
     printf("Enter the size of array\n");
     scanf("%d",&size);
 
     // Step1 : Allocate the memory
     ptr = (int *)malloc(sizeof(int) * size);
 
-    // Step 2 : Use the memory (In logic building batch)
+    // Step 2 : Use the memory
 
     // Step 3 : Deallocate the memory
     free(ptr);

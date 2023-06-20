@@ -1,12 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-// Description : Application for basic calculator using the concept of AWT(abstract window toolkit) from
-//               Java.
+// Description : Application for basic calculator using the concept of AWT(abstract window toolkit) from Java.
 // Author :      Dinesh Devidasrao Kadam
 // Date :        12 May 2023
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
 
 
 import java.awt.*;

@@ -6,7 +6,7 @@
 //  Input :         Unsigned integer, Unsigned integer
 //  Output :        Unsigned integer
 //  Description :   Performs addition of 2 numbers
-//  Author :        Piyush Manohar Khairnar
+//  Author :        Dinesh Devidasrao Kadam
 //  Date :          18/04/2023  + 19/04/2023
 //
 /////////////////////////////////////////////////////////////////////////////////

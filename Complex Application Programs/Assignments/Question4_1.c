@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////
+//
+// Problem Statement : Write a program which accepts name from
+//                     the user and print that name.
+//
+////////////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+////////////////////////////////////////////////////////////////
+// Entry Point Function
+///////////////////////////////////////////////////////////////
+
+int main()
+{
+    char Name[30];
+
+    printf("Please Enter Full name \n");
+    
+    gets(Name);   // It is a standard library function which stores string in it
+
+    printf("Your name is : %s", Name);
+
+    return 0;
+}

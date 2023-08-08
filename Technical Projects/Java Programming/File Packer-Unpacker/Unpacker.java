@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-class program521
+class Unpacker
 {
     public static void main(String Arg[])
     {

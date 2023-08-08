@@ -11,17 +11,22 @@ class Packer
         boolean bRet = false;
         int PackCount = 0;
         
-        System.out.println("---------------------------Marvellous Packer Unpacker------------------------------------------");
-        System.out.println("Packing Activity of the Application is started");
+        System.out.println("-----------------------------------------------------------------------------------------------");
+        System.out.println("                             Marvellous Packer Unpacker                                        ");
+        System.out.println("-----------------------------------------------------------------------------------------------");
+        System.out.println("                    Packing Activity of the Application is started                             ");
+        System.out.println("-----------------------------------------------------------------------------------------------");
 
         System.out.println("Please, enter the name of the folder which contains files you want to pack");
-        String FolderName = sobj.nextLine();   
+        String FolderName = sobj.nextLine(); 
+        System.out.println("-----------------------------------------------------------------------------------------------");  
 
         File fobj = new File(FolderName);
         String Header = null; 
 
         System.out.println("Enter the name of packed file that you want to create");
-        String PackFile = sobj.nextLine();  
+        String PackFile = sobj.nextLine();
+        System.out.println("-----------------------------------------------------------------------------------------------"); 
        
        try
      { 
@@ -70,10 +75,15 @@ class Packer
                         PackCount++;
                     }       
                 }
-                System.out.println("--------------------------Packing Summary-------------------------------------------");
+
+                System.out.println("-----------------------------------------------------------------------------------------------");
+                System.out.println("                               Packing Summary                                                 ");
+                System.out.println("-----------------------------------------------------------------------------------------------");
                 System.out.println("Total number of files scanned : "+list.length);
                 System.out.println("Total number of files packed : "+PackCount);
+                System.out.println("-----------------------------------------------------------------------------------------------");
                 System.out.println("Thank You for using Marvellous Packer Unpacker");
+                System.out.println("-----------------------------------------------------------------------------------------------");
             }
         }
 
